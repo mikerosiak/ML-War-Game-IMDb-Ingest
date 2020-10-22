@@ -3,7 +3,7 @@ MarkLogic war-game for testing MLCP ingestion performance using IMDb movie data
 
 Instructions for running war-game:
 1.  Clone this repo to your local machine
-1.  Unzip the netflix_titles.zip in the data directory
+1.  Unzip the `IDMb movies.zip` file in the data directory
 1.  Edit the ingest.bat script as needed for the target environment
 1.  Run the ingest.bat script from a command prompt
 
