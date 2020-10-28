@@ -11,6 +11,7 @@
                   -uri_id imdb_title_id ^
                   -output_uri_prefix /title/ ^
                   -output_uri_suffix .json ^
+                  -output_collections movie ^
                   -thread_count 8 ^
                   -batch_size 200
 
