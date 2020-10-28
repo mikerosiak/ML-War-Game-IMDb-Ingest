@@ -1,5 +1,5 @@
-# ML-War-Game-IMDb-Ingest
-MarkLogic war-game for testing MLCP ingestion performance using IMDb movie data
+# ML-War-Game-IMDb-Ingest-and-Report
+MarkLogic war-game for testing MLCP ingestion performance using IMDb movie data and reporting using CoRB
 
 Instructions for running war-game:
 1.  Clone this repo to your local machine
