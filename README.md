@@ -11,4 +11,4 @@ Instructions for running war-game:
 1.  Run the `report.bat` script
 1.  Record the timing for Step 2
 
-Note that deployment is not required for this war-game - it simply uses MLCP to load data to the target MarkLogic environment.  Run Step 2 twice in order to warm up the caches, then record the second result time.
+Note that deployment is not required for this war-game - it simply uses MLCP to load data to the target MarkLogic environment and ad-hoc CoRB modules for reporting.  Run Step 2 twice in order to warm up the caches, then record the second result time.
