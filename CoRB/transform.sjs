@@ -12,8 +12,8 @@ for (const uri of uriArray) {
     let title = movie.title;
     let actors = movie.actors.split(", ");
     let count = 0;
-    for (let a of actors) {
-    	count += cts.estimate(cts.jsonPropertyWordQuery("actors", a));
+    for (let actor of actors) {
+    	count += cts.estimate(cts.jsonPropertyWordQuery("actors", actor));
     }
     if (actors.length == 1) {
 	    report.push(title + " included 1 actor, who acted in " + count + " movies.");
